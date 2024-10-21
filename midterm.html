@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Webpage</title>
+    <link rel="stylesheet" href="mid.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Web Development Midterm</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Table</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         
+        <div class="column">
+            <h2>Web Development Info</h2>
+            <p>This section provides some basic information about web development.</p>
+        </div>
+        <div class="column">
+            <h2>Additional Content</h2>
+            <p>This is additional content for the webpage.</p>
+        </div>
+
+        
+        <form action="#" method="POST">
+            <h2>Registration Form</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="description">Tell us about yourself:</label>
+            <textarea id="description" name="description" required></textarea><br><br>
+
+            <label for="topic">Favorite Topic:</label>
+            <select id="topic" name="topic" required>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="py">Python</option>
+            </select><br><br>
+
+            <label for="file">Upload a File:</label>
+            <input type="file" id="file" name="file" required><br><br>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+         
+        <section>
+            <h2>Multimedia Section</h2>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your is not able for using this audio element.
+            </audio>
+            <br><br>
+            <video controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br><br>
+            <img src="sample.jpg" alt="A descriptive alt text for the sample image" width="400">
+        </section>
+
+         
+        <section>
+            <h2>Electronics for Sale</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Smartphone X</td>
+                        <td>A high-end smartphone with 128GB storage.</td>
+                        <td>$799</td>
+                    </tr>
+                    <tr>
+                        <td>Laptop Pro 15</td>
+                        <td>Powerful laptop with 16GB RAM and 512GB SSD.</td>
+                        <td>$1,499</td>
+                    </tr>
+                    <tr>
+                        <td>Wireless Earbuds</td>
+                        <td>Compact wireless earbuds with noise cancellation.</td>
+                        <td>$199</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Project by Vaibhav - 2024</p>
+    </footer>
+
+</body>
+</html>
